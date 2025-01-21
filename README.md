@@ -112,6 +112,12 @@ FASTAPI_HOST=0.0.0.0
 FASTAPI_PORT=8000
 ```
 
+**5. Start the server**
+
+```bash
+fastapi run api.py
+```
+
 ### 📱 Frontend - Mobile Application
 
 Steps to start the mobile app:
