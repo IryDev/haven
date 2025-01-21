@@ -2,7 +2,8 @@ import os
 
 import resend
 
-# implement the logic email sending depend on the type of alert
+# TODO implement the logic email sending depend on the type of alert
+
 
 resend.api_key = os.environ["RESEND_API_KEY"]
 
