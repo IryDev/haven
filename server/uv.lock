@@ -460,12 +460,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "fastapi", extra = ["standard"] },
+    { name = "python-dotenv" },
     { name = "resend" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "fastapi", extras = ["standard"], specifier = ">=0.115.6" },
+    { name = "python-dotenv", specifier = ">=1.0.1" },
     { name = "resend", specifier = ">=2.5.1" },
 ]
 
