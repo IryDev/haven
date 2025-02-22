@@ -9,12 +9,14 @@ dist/
 .env
 .env.local
 
-# ruff stuff
+# ruff
 .ruff_cache/
 
 # pycache
 __pycache__/
 
+# venv
+.venv/
 
 # Ignore log files
 *.log

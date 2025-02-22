@@ -1,4 +1,3 @@
-import os
 
 import resend
 from dotenv import load_dotenv
@@ -28,7 +27,6 @@ class ResendClient:
 
 
 class AlertEmail:
-
     def __init__(self, alert_type: str, additional_info: str = None):
         self.alert_type = alert_type
         self.additional_info = additional_info or ""

@@ -5,7 +5,7 @@
   <br />
 
   <div>
-    <img src="https://skills-icons.vercel.app/api/icons?i=reactnative,ts,expo,tailwind,python,fastapi,resend" />
+    <img src="https://skills-icons.vercel.app/api/icons?i=reactnative,expo,ts,tailwind,python,fastapi,mysql,resend,raspberrypi" />
   </div>
 
   <h3 align="center">Haven Mobile App</h3>
@@ -108,8 +108,7 @@ uv install
 Create a `.env` file in the server directory with the required details:
 
 ```env
-FASTAPI_HOST=0.0.0.0
-FASTAPI_PORT=8000
+RESEND_API_KEY=
 ```
 
 **5. Start the server**
