@@ -5,5 +5,3 @@ export type Sensor = {
   light: number;
   motion: boolean;
 };
-
-export default Sensor;
